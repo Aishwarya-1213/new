@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    background-image: url("./download.jfif");
+/* background-size: cover;     */
+    background-position: center ;
+    align-items: center;
+    justify-content: center;
+    background-size: 50%;
+    background-size: cover;
+    
+    /* height: 100%; */
+    /*  */
+    
+    background-repeat: no-repeat;
+    /* display: flex;
+    flex-direction: column;
+     */
+}
+h1{
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.countdown-container{
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.big-text{
+    line-height: 1;
+    font-size: 6rem;
+    margin: 0 2rem;
+}
+.countdown-container span{
+    font-size: 2rem;
+    margin: 1rem;
+}
+@media all and (max-width:500px)  {
+    body{
+        background-image: url("./download.jfif");
+/* background-size: cover;     */
+    background-position: center ;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 50%;
+    
+    }
+    
+}
